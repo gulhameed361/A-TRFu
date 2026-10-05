@@ -11,6 +11,15 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-05"
 license: MIT
+doi: "10.5281/zenodo.23173542"
+repository-code: "https://github.com/gulhameed361/A-TRFu"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23173541"
+    description: "Concept DOI: all releases"
+  - type: doi
+    value: "10.5281/zenodo.23173542"
+    description: "Release 1.0.0"
 keywords:
   - "grey-box optimisation"
   - "trust-region methods"

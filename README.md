@@ -1,5 +1,7 @@
 # A-TRFu: advanced trust-region funnel method for grey-box optimisation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23173541.svg)](https://doi.org/10.5281/zenodo.23173541)
+
 This repository contains the A-TRFu solver (Algorithm 7.1 of the thesis) and
 everything needed to reproduce the results of **Chapter 7**: Tables 7.1–7.5 and
 Figures 7.3 and 7.5.
@@ -191,7 +193,7 @@ with its default and description, is declared in `TrustRegionSolver.CONFIG`
 
 ## Citation
 
-Release 1.0.0 of this repository accompanies G. Hameed, *Rigorous Trust-Region Algorithms for Surrogate-based Grey-box Optimisation*, PhD thesis, University of Surrey, 2026; publications that use later releases are listed here as they appear. Please cite the release you used with the metadata in `CITATION.cff`; each release has its own Zenodo DOI, shown on the repository page.
+Release 1.0.0 of this repository accompanies G. Hameed, *Rigorous Trust-Region Algorithms for Surrogate-based Grey-box Optimisation*, PhD thesis, University of Surrey, 2026; publications that use later releases are listed here as they appear. Please cite the release you used with the metadata in `CITATION.cff`; each release has its own Zenodo DOI. Release 1.0.0: [10.5281/zenodo.23173542](https://doi.org/10.5281/zenodo.23173542); all releases: [10.5281/zenodo.23173541](https://doi.org/10.5281/zenodo.23173541).
 
 ## Licence and attribution
 
