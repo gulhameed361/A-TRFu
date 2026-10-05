@@ -1,0 +1,9 @@
+__pycache__/
+atrfu/gjh
+atrfu/gjh.exe
+results/runs/
+results/runs.csv
+results/dfo_results.csv
+results/tables/
+results/figures/
+unnamed_problem_outputs/

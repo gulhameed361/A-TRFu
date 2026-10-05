@@ -1,0 +1,17 @@
+name: atrfu-dfo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.12
+  - pip
+  - pip:
+      - pyomo==6.9.5
+      - numpy==1.26.4
+      - scipy==1.16.3
+      - pandas==2.3.3
+      - matplotlib==3.10.7
+      - modopt==0.1.0
+      - cobyqa==1.1.1
+      - pdfo==2.2.0
+      - py-bobyqa==1.5.0
+      - PyNomadBBO==4.5.1

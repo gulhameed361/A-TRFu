@@ -1,0 +1,121 @@
+Problem,Solver,n_vars,n_eq,n_ineq,ObjSense,ConstraintHandling,RawObjective,MaxViolation,Feasible,PenalizedObjective,BB_Evals_Used,Solver_nfev,Success,Runtime_s,Message
+powell,COBYLA,4,0,0,minimize,native,0.0005080029083995,0.0,True,0.0005080029083995,1119,1115,True,3.200834699906409,Return from COBYLA because the trust region radius reaches its lower bound.
+powell,COBYQA,4,0,0,minimize,native,3.1270178139403155e-10,0.0,True,3.1270178139403155e-10,213,209,True,2.200141199864447,The lower bound for the trust-region radius has been reached
+powell,Nelder-Mead,4,0,0,minimize,penalty,9.749500376397904e-29,0.0,True,9.749500376397904e-29,741,741,True,0.1151425000280141,Optimization terminated successfully.
+powell,NEWUOA,4,0,0,minimize,penalty,3.5158632674862667e-11,0.0,True,3.5158632674862667e-11,384,384,True,1.1654683002270758,Return from newuoa because the lower bound for the trust region radius is reached.
+powell,Py-BOBYQA,4,0,0,minimize,penalty,1.8244928427399248e-11,0.0,True,1.8244928427399248e-11,447,447,False,2.4805833999998868,Warning (slow progress): Maximum slow iterations reached
+powell,NOMAD,4,0,0,minimize,native,1.432199583515273e-09,0.0,True,1.432199583515273e-09,362,362,True,11.155046300031245,
+colville,COBYLA,5,0,6,minimize,native,9948.500472583111,0.0035296865028395,False,9961.413280583323,34,23,True,0.286224499810487,Return from COBYLA because the trust region radius reaches its lower bound.
+colville,COBYQA,5,0,6,minimize,native,9960.260086357011,0.0007192021301869,False,9960.787481397922,51,39,True,0.7053955998271704,The lower bound for the trust-region radius has been reached
+colville,Nelder-Mead,5,0,6,minimize,penalty,9951.90859309632,0.0020536398542596,False,9957.680170422052,2026,2026,True,0.8421611003577709,Optimization terminated successfully.
+colville,NEWUOA,5,0,6,minimize,penalty,-1394140.4172262864,0.0,True,-1394140.4172262864,10000,10000,False,15.564663200173529,Return from newuoa because the objective function has been evaluated maxfev times.
+colville,Py-BOBYQA,5,0,6,minimize,penalty,9951.908596072291,0.0020536394357882,False,9957.680170422049,122,122,True,0.7771142004057765,Success: rho has reached rhoend
+colville,NOMAD,5,0,6,minimize,native,9955.440826149474,0.0020602024179102,False,9959.685260152237,587,587,True,108.87733559962362,
+alkylation,COBYLA,10,7,0,maximize,native,15.165977759039636,3.4924596548080444e-10,True,-15.165977759039512,69,48,True,1.3497303002513945,Return from COBYLA because the trust region radius reaches its lower bound.
+alkylation,COBYQA,10,7,0,maximize,native,15.039643585979974,2.999999992425728e-06,False,-15.039633585976109,522,500,False,12.23857370018959,The maximum number of function evaluations has been exceeded
+alkylation,Nelder-Mead,10,7,0,maximize,penalty,17.521382513184562,0.0001172095445758,False,-17.489346622524554,10000,10000,False,4.674365799874067,Maximum number of function evaluations has been exceeded.
+alkylation,NEWUOA,10,7,0,maximize,penalty,15.039552560978224,4.409230314195156e-06,False,-15.039532025498776,43,43,True,0.0819160002283752,Return from newuoa because the lower bound for the trust region radius is reached.
+alkylation,Py-BOBYQA,10,7,0,maximize,penalty,15.04147920030897,2.0734682465217705e-05,False,-15.0407764273629,71,71,True,0.6548649002797902,Success: rho has reached rhoend
+alkylation,NOMAD,10,7,0,maximize,native,15.03951199181185,1.979060471057892e-09,True,-15.039511991807933,906,906,True,99.14085059985518,
+williams_otto,COBYLA,27,22,0,maximize,native,77.4614227498327,1.000000000139778e-06,False,-77.46142174983271,167,112,True,11.206597600132229,Return from COBYLA because the trust region radius reaches its lower bound.
+williams_otto,COBYQA,27,22,0,maximize,native,87.12972945639521,3.929953650105844e-05,False,-87.12759220447089,529,473,False,52.16206939984113,The lower bound for the trust-region radius has been reached
+williams_otto,Nelder-Mead,27,22,0,maximize,penalty,77.52436355446616,9.384410628143768e-05,False,-77.49608447262787,10000,10000,False,11.116153299808502,Maximum number of function evaluations has been exceeded.
+williams_otto,NEWUOA,27,22,0,maximize,penalty,77.46161572398466,8.312587993941634e-06,False,-77.4615216157419,111,111,True,0.1774856997653842,Return from newuoa because the lower bound for the trust region radius is reached.
+williams_otto,Py-BOBYQA,27,22,0,maximize,penalty,77.4791990922124,7.386123640351627e-05,False,-77.47254130527995,269,269,True,17.499346299562603,Success: rho has reached rhoend
+williams_otto,NOMAD,27,22,0,maximize,native,77.46160640566339,2.125049735290929e-06,False,-77.46158926048047,1061,1061,True,20.33699689991772,
+hetero_scale,COBYLA,5,3,0,minimize,native,3.2062264825252043,8.269853424280883e-08,True,3.206226489364252,81,70,True,0.5765891000628471,Return from COBYLA because the trust region radius reaches its lower bound.
+hetero_scale,COBYQA,5,3,0,minimize,native,3.2061297481239506,6.555146252196221e-09,True,3.206129748209474,423,411,True,5.670177600346506,The lower bound for the trust-region radius has been reached
+hetero_scale,Nelder-Mead,5,3,0,minimize,penalty,2.483735721135734,0.0065965481659937,False,46.03025051085347,10000,10000,False,2.632514300290495,Maximum number of function evaluations has been exceeded.
+hetero_scale,NEWUOA,5,3,0,minimize,penalty,11.642776527351248,0.1213872739052814,False,21649.07886262287,99,99,True,0.0716263996437192,Return from newuoa because the lower bound for the trust region radius is reached.
+hetero_scale,Py-BOBYQA,5,3,0,minimize,penalty,-13.527215272295864,0.2281354004970022,False,81065.9295833408,78,78,True,0.4075449998490512,Success: rho has reached rhoend
+hetero_scale,NOMAD,5,3,0,minimize,native,3.708726489133914,0.0007611621919101,False,4.80477871054164,773,773,True,40.362628099974245,
+noisy_bb,COBYLA,4,2,0,minimize,native,0.0001013756876606,1.7426235121575928e-08,True,0.0001013759916159,53,44,True,0.2353827999904751,Return from COBYLA because the trust region radius reaches its lower bound.
+noisy_bb,COBYQA,4,2,0,minimize,native,0.0001013748389788,8.646616755925152e-10,True,0.0001013748397286,49,39,True,0.541187500115484,The lower bound for the trust-region radius has been reached
+noisy_bb,Nelder-Mead,4,2,0,minimize,penalty,0.0001013748378013,1.2018408490632735e-09,True,0.0001013748393941,3762,3762,True,0.786678500007838,Optimization terminated successfully.
+noisy_bb,NEWUOA,4,2,0,minimize,penalty,0.0003269582248748,9.940913425765533e-09,True,0.0003269583302663,1966,1966,True,0.384043900296092,Return from newuoa because the lower bound for the trust region radius is reached.
+noisy_bb,Py-BOBYQA,4,2,0,minimize,penalty,2.236121220212831,8.42852328375443e-07,True,2.236122070085864,73,73,True,0.343935000244528,Success: rho has reached rhoend
+noisy_bb,NOMAD,4,2,0,minimize,native,0.2250297192601499,7.466401362510311e-06,False,0.2251006167665576,378,378,True,21.92371550016105,
+rosenbrock_bb,COBYLA,4,2,0,minimize,native,0.0028109223821612,7.0519800653208345e-09,True,0.0028109224437991,1319,1310,True,8.460935200098902,Return from COBYLA because the trust region radius reaches its lower bound.
+rosenbrock_bb,COBYQA,4,2,0,minimize,native,1.0003925021612772,1.0546498049106649e-06,False,1.0003936159301785,120,110,False,1.4061501999385655,The lower bound for the trust-region radius has been reached
+rosenbrock_bb,Nelder-Mead,4,2,0,minimize,penalty,3.5314259651132936e-18,2.0836665726164938e-12,True,8.107659755480797e-18,7503,7503,True,1.5703243999741971,Optimization terminated successfully.
+rosenbrock_bb,NEWUOA,4,2,0,minimize,penalty,0.0018925927109414,1.1456222193118036e-08,True,0.0018925928745951,8235,8235,True,1.376611900050193,Return from newuoa because the lower bound for the trust region radius is reached.
+rosenbrock_bb,Py-BOBYQA,4,2,0,minimize,penalty,0.0217487138582549,2.1237633809345624e-06,False,0.0217546652490042,10000,10000,False,55.09518649987877,Warning (max evals): Objective has been called MAXFUN times
+rosenbrock_bb,NOMAD,4,2,0,minimize,native,4.354034297100389,3.610417575017344e-05,False,4.355345284007545,288,288,True,10.64284269977361,
+six_bb_chain,COBYLA,12,6,0,minimize,native,0.0574524506674622,4.210711779251142e-09,True,0.0574524507147353,293,268,True,5.552879000082612,Return from COBYLA because the trust region radius reaches its lower bound.
+six_bb_chain,COBYQA,12,6,0,minimize,native,0.0574524568466986,4.073316978159269e-08,True,0.057452460627969,135,109,False,2.662851099856198,The lower bound for the trust-region radius has been reached
+six_bb_chain,Nelder-Mead,12,6,0,minimize,penalty,1.3902648197535512,1.094942612844818e-05,False,1.3905100422864214,10000,10000,False,4.6048663998954,Maximum number of function evaluations has been exceeded.
+six_bb_chain,NEWUOA,12,6,0,minimize,penalty,0.2439531715593183,7.147184067024526e-06,False,0.2440395846154061,10000,10000,False,5.379512199666351,Return from newuoa because the objective function has been evaluated maxfev times.
+six_bb_chain,Py-BOBYQA,12,6,0,minimize,penalty,0.3781053791807646,5.54425967136396e-07,True,0.3781059357863729,202,202,True,4.120595800224692,Success: rho has reached rhoend
+six_bb_chain,NOMAD,12,6,0,minimize,native,0.2782135023153632,0.00041107213035,False,0.8373645646828124,550,550,True,69.38088659988716,
+infeasible_start,COBYLA,5,3,0,minimize,native,0.6415415352572674,3.0381768212350835e-09,True,0.6415415352716355,721,710,True,5.73870600014925,Return from COBYLA because the trust region radius reaches its lower bound.
+infeasible_start,COBYQA,5,3,0,minimize,native,0.64154153502711,2.675349719538644e-09,True,0.6415415350342679,93,82,True,1.1787187000736594,The lower bound for the trust-region radius has been reached
+infeasible_start,Nelder-Mead,5,3,0,minimize,penalty,-2.2350000287255285,62.32011692273655,False,7544046971.028554,347,350,True,0.0804699002765119,Optimization terminated successfully.
+infeasible_start,NEWUOA,5,3,0,minimize,penalty,500.8238516533779,1.1397908110666322e-06,False,500.8238534834388,1006,1006,True,0.7612045002169907,Return from newuoa because the lower bound for the trust region radius is reached.
+infeasible_start,Py-BOBYQA,5,3,0,minimize,penalty,2.960026099756541,9.297765135585224e-07,True,2.960027070565684,301,301,True,2.2396597997285426,Success: rho has reached rhoend
+infeasible_start,NOMAD,5,3,0,minimize,native,2.2017910634833644,6.285775011161121e-05,False,2.2072299438064165,489,489,True,52.68294720025733,
+recycle_loop,COBYLA,5,3,0,maximize,native,30.851760783277324,1.6932122370860725e-11,True,-30.851760783277324,36,25,True,0.2979878997430205,Return from COBYLA because the trust region radius reaches its lower bound.
+recycle_loop,COBYQA,5,3,0,maximize,native,30.85177774756955,2.3136246061206123e-06,False,-30.85177223320004,68,57,True,0.8523861998692155,The lower bound for the trust-region radius has been reached
+recycle_loop,Nelder-Mead,5,3,0,maximize,penalty,30.85260856670389,2.053103845134352e-05,False,-30.852184647144096,2960,2960,True,0.7123779002577066,Optimization terminated successfully.
+recycle_loop,NEWUOA,5,3,0,maximize,penalty,98.1742946010344,2.260551958399581e-05,False,-98.1737633735121,10000,10000,False,8.10749079985544,Return from newuoa because the objective function has been evaluated maxfev times.
+recycle_loop,Py-BOBYQA,5,3,0,maximize,penalty,30.85260832479825,2.0525804218518573e-05,False,-30.85218464700252,3773,3773,True,28.21132570039481,Success: rho has reached rhoend
+recycle_loop,NOMAD,5,3,0,maximize,native,11.15822926733859,6.932599999975864e-05,False,-11.153105635643612,272,272,True,16.722177300136536,
+multimodal,COBYLA,3,1,0,minimize,native,0.389442132025978,1.422310714933872e-07,True,0.3894421522556557,226,219,True,0.9255711999721824,Return from COBYLA because the trust region radius reaches its lower bound.
+multimodal,COBYQA,3,1,0,minimize,native,0.3894419061819482,3.284937496288165e-07,True,0.3894420140900917,70,62,True,0.6735808001831174,The lower bound for the trust-region radius has been reached
+multimodal,Nelder-Mead,3,1,0,minimize,penalty,0.3894417329041156,5.000007461640477e-07,True,0.3894419829048617,1491,1491,True,0.2423612000420689,Optimization terminated successfully.
+multimodal,NEWUOA,3,1,0,minimize,penalty,0.3894420469943428,5.087838737104916e-07,True,0.389442305855373,640,640,True,0.1343811000697314,Return from newuoa because the lower bound for the trust region radius is reached.
+multimodal,Py-BOBYQA,3,1,0,minimize,penalty,0.3894435237460858,5.069828524044417e-07,True,0.3894437807776984,1405,1405,True,6.012213599868119,Success: rho has reached rhoend
+multimodal,NOMAD,3,1,0,minimize,native,0.3902046689344,4.7885680965586985e-05,False,0.392497707375938,389,389,True,13.10783590003848,
+ill_conditioned,COBYLA,4,2,0,minimize,native,8.845244103676107,3.364209424927544e-09,True,8.845244103687424,53,44,True,0.3106908001936972,Return from COBYLA because the trust region radius reaches its lower bound.
+ill_conditioned,COBYQA,4,2,0,minimize,native,3.269086217875981,4.870348198071639e-07,True,3.269086466989744,174,164,True,1.7429039999842644,The lower bound for the trust-region radius has been reached
+ill_conditioned,Nelder-Mead,4,2,0,minimize,penalty,8.757523752454796,5.000308520297647e-07,True,8.75752425247525,678,678,True,0.1313300002366304,Optimization terminated successfully.
+ill_conditioned,NEWUOA,4,2,0,minimize,penalty,5.247381712483609,4.850052146565531e-07,True,5.247382047369286,1025,1025,True,0.2069924003444612,Return from newuoa because the lower bound for the trust region radius is reached.
+ill_conditioned,Py-BOBYQA,4,2,0,minimize,penalty,5.239772117288676,4.988573328312818e-07,True,5.2397726135037175,1662,1662,True,9.078631300013512,Success: rho has reached rhoend
+ill_conditioned,NOMAD,4,2,0,minimize,native,3.05767827197226,0.0001785400623974,False,3.1193145259531807,341,341,True,40.10328939976171,
+active_set_churn,COBYLA,4,0,4,minimize,native,-2.028683944750066,5.152652704509819e-08,True,-2.028683942095084,82,73,True,0.3584229000844061,Return from COBYLA because the trust region radius reaches its lower bound.
+active_set_churn,COBYQA,4,0,4,minimize,native,-2.028683934254808,1.8761436848535595e-11,True,-2.028683934254808,47,38,True,0.5365472002886236,The lower bound for the trust-region radius has been reached
+active_set_churn,Nelder-Mead,4,0,4,minimize,penalty,-2.0040063050398067,1.870684149807289e-07,True,-2.004006265845524,1603,1603,True,0.3765597003512084,Optimization terminated successfully.
+active_set_churn,NEWUOA,4,0,4,minimize,penalty,-1.543006923043843,0.0,True,-1.543006923043843,89,89,True,0.0634090001694858,Return from newuoa because the lower bound for the trust region radius is reached.
+active_set_churn,Py-BOBYQA,4,0,4,minimize,penalty,-1.5001497660405647,0.0,True,-1.5001497660405647,57,57,True,0.2018504999577999,Success: rho has reached rhoend
+active_set_churn,NOMAD,4,0,4,minimize,native,-2.028683776625788,1.389999999545921e-07,True,-2.028683757304788,711,711,True,55.91447630012408,
+stiff_bb,COBYLA,4,2,0,minimize,native,0.0184932930531579,1.806711225071922e-09,True,0.0184932930564278,1208,1199,True,9.039593799971044,Return from COBYLA because the trust region radius reaches its lower bound.
+stiff_bb,COBYQA,4,2,0,minimize,native,2.28738022720732,5.445030550887964e-07,True,2.287380523690919,226,216,False,2.8104094001464546,The lower bound for the trust-region radius has been reached
+stiff_bb,Nelder-Mead,4,2,0,minimize,penalty,6.400991984339107,2.002747574643354e-06,False,6.40099599761225,349,349,True,0.0936088999733328,Optimization terminated successfully.
+stiff_bb,NEWUOA,4,2,0,minimize,penalty,2.314077428351001,7.246951609696239e-06,False,2.3141754137283703,10000,10000,False,3.4901354000903666,Return from newuoa because the objective function has been evaluated maxfev times.
+stiff_bb,Py-BOBYQA,4,2,0,minimize,penalty,5.090721756952739,2.224436726205869e-06,False,5.0907293055355565,178,178,True,1.0485305995680392,Success: rho has reached rhoend
+stiff_bb,NOMAD,4,2,0,minimize,native,5.162022967021226,0.0002207035022048,False,5.238812293246395,348,348,True,22.85567929968238,
+highdim_sep_10,COBYLA,20,10,0,minimize,native,1.232004142128229,5.67732616474359e-09,True,1.2320041422088397,426,385,True,11.191531700082123,Return from COBYLA because the trust region radius reaches its lower bound.
+highdim_sep_10,COBYQA,20,10,0,minimize,native,1.232004144378189,2.6720853085748786e-08,True,1.2320041468442866,216,175,False,8.078760000411421,The lower bound for the trust-region radius has been reached
+highdim_sep_10,Nelder-Mead,20,10,0,minimize,penalty,25.27726071952281,4.521635468234583e-05,False,25.28335881269499,10000,10000,False,5.8274242002516985,Maximum number of function evaluations has been exceeded.
+highdim_sep_10,NEWUOA,20,10,0,minimize,penalty,3.56438417915191,1.2119481909600438e-05,False,3.5646360253500564,10000,10000,False,5.76073390012607,Return from newuoa because the objective function has been evaluated maxfev times.
+highdim_sep_10,Py-BOBYQA,20,10,0,minimize,penalty,3.4374105199965954,6.25163911971427e-07,True,3.4374118021831745,358,358,True,18.851849399972707,Success: rho has reached rhoend
+highdim_sep_10,NOMAD,20,10,0,minimize,native,25.500091839458666,8.319517462895831e-05,False,25.52722225375969,2694,2694,True,61.48876310000196,
+highdim_sep_20,COBYLA,40,20,0,minimize,native,2.528893651351348,1.907701108194715e-09,True,2.5288936513596,1027,946,True,94.45724719995631,Return from COBYLA because the trust region radius reaches its lower bound.
+highdim_sep_20,COBYQA,40,20,0,minimize,native,2.5288936216532925,4.1102974357443145e-08,True,2.528893628735517,227,146,False,35.751462100073695,The lower bound for the trust-region radius has been reached
+highdim_sep_20,Nelder-Mead,40,20,0,minimize,penalty,51.9034014079531,0.0025971721706348,False,61.11947424382625,10000,10000,False,10.232984900008889,Maximum number of function evaluations has been exceeded.
+highdim_sep_20,NEWUOA,40,20,0,minimize,penalty,8.457896705746432,2.060771497003344e-06,False,8.457914192869822,10000,10000,False,11.670174200087786,Return from newuoa because the objective function has been evaluated maxfev times.
+highdim_sep_20,Py-BOBYQA,40,20,0,minimize,penalty,6.071890878857767,1.334317935253182e-06,False,6.071899993681721,713,713,True,125.29156129993498,Success: rho has reached rhoend
+highdim_sep_20,NOMAD,40,20,0,minimize,native,13.897149594083254,0.000450103271945,False,14.618704660856965,9254,9254,True,868.1731083001941,
+highdim_sep_40,COBYLA,80,40,0,minimize,native,5.1467435593037285,4.726381508390887e-10,True,5.146743559304727,2334,2173,True,855.1210189000703,Return from COBYLA because the trust region radius reaches its lower bound.
+highdim_sep_40,COBYQA,80,40,0,minimize,native,5.146743477824796,3.138922144430012e-08,True,5.146743498765988,661,500,False,507.8731406000443,The maximum number of function evaluations has been exceeded
+highdim_sep_40,Nelder-Mead,80,40,0,minimize,penalty,103.33239671199786,0.0370757968743736,False,2587.235875394373,10000,10000,False,18.24628290021792,Maximum number of function evaluations has been exceeded.
+highdim_sep_40,NEWUOA,80,40,0,minimize,penalty,20.78648953912341,1.4145302709156482e-06,False,20.78650197927414,1653,1653,True,4.164917699992657,Return from newuoa because the lower bound for the trust region radius is reached.
+highdim_sep_40,Py-BOBYQA,80,40,0,minimize,penalty,14.09883538795614,8.163191327348329e-07,True,14.09884067052853,1709,1709,True,1803.856108899694,Success: rho has reached rhoend
+highdim_sep_40,NOMAD,80,40,0,minimize,native,33.4872,1.026158768732892,False,7110638.848267523,10000,10000,True,2302.33770980034,
+highdim_coupled_10,COBYLA,13,3,0,minimize,native,2.8005600186934734,6.821581965965606e-09,True,2.800560018740028,353,326,True,3.905285899993032,Return from COBYLA because the trust region radius reaches its lower bound.
+highdim_coupled_10,COBYQA,13,3,0,minimize,native,2.800559540332374,4.781569336032021e-07,True,2.800559805693126,113,86,False,1.8721564998850224,The lower bound for the trust-region radius has been reached
+highdim_coupled_10,Nelder-Mead,13,3,0,minimize,penalty,31.777853626723644,5.499581992801895,False,54461919.69721132,10000,10000,False,4.26617190008983,Maximum number of function evaluations has been exceeded.
+highdim_coupled_10,NEWUOA,13,3,0,minimize,penalty,7.511297937696057,9.133344019751632e-06,False,7.511458387734528,10000,10000,False,5.229165799915791,Return from newuoa because the objective function has been evaluated maxfev times.
+highdim_coupled_10,Py-BOBYQA,13,3,0,minimize,penalty,8.691724031619659,3.766859903442388e-06,False,8.691747020101074,10000,10000,False,303.8472838001326,Warning (max evals): Objective has been called MAXFUN times
+highdim_coupled_10,NOMAD,13,3,0,minimize,native,43.77164321693855,0.0001032859298543,False,43.783026540659584,1066,1066,True,118.60123819997534,
+highdim_coupled_20,COBYLA,23,3,0,minimize,native,5.60112003524365,1.6352516674089657e-08,True,5.6011200355126896,761,714,True,11.0101525997743,Return from COBYLA because the trust region radius reaches its lower bound.
+highdim_coupled_20,COBYQA,23,3,0,minimize,native,5.6011228215054105,4.32868143107612e-07,True,5.601123033290996,392,345,False,11.718816900160164,The lower bound for the trust-region radius has been reached
+highdim_coupled_20,Nelder-Mead,23,3,0,minimize,penalty,161.8419230975231,18.412751703165902,False,352282380.51825464,10000,10000,False,6.8244489999488,Maximum number of function evaluations has been exceeded.
+highdim_coupled_20,NEWUOA,23,3,0,minimize,penalty,58.709755003072274,6.31711066034768e-05,False,58.7144016055853,10000,10000,False,6.418063200078905,Return from newuoa because the objective function has been evaluated maxfev times.
+highdim_coupled_20,Py-BOBYQA,23,3,0,minimize,penalty,37.43576685226723,2.2732761909338706e-05,False,37.43646782113535,10000,10000,False,889.9068159000017,Warning (max evals): Objective has been called MAXFUN times
+highdim_coupled_20,NOMAD,23,3,0,minimize,native,37.29956762578949,8.021824608370198e-05,False,37.30829065170055,2712,2712,True,90.25060619972646,
+HDA,COBYLA,48,39,2,minimize,native,-316.32156872091156,0.02956228795782434,False,26989.9852437526,2994,2897,False,335.9863666999154,Did not converge to a solution satisfying the constraints. See `maxcv` for the magnitude of the violation.
+HDA,COBYQA,48,39,2,minimize,native,-316.27821329246444,152.8070731896446,False,23354900241.11723,598,500,False,127.80908269993961,The maximum number of function evaluations has been exceeded
+HDA,Nelder-Mead,48,39,2,minimize,penalty,-329.9095140793793,0.5179243634568471,False,1077458.8608601468,10000,10000,False,68.62782509997487,Maximum number of function evaluations has been exceeded.
+HDA,NEWUOA,48,39,2,minimize,penalty,-316.0934208821367,0.628188906989859,False,1004995.6003491669,10000,10000,False,89.30303549999371,Return from newuoa because the objective function has been evaluated maxfev times.
+HDA,Py-BOBYQA,48,39,2,minimize,penalty,-316.2782070608334,152.8164057462709,False,23357752519.959892,2514,2514,True,629.3459264999256,Success: rho has reached rhoend
+HDA,NOMAD,48,39,2,minimize,native,-6528.298207119489,0.16072968634392384,False,105235.55637607505,10000,10000,True,2357.8512070002034,

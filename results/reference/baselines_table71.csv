@@ -1,0 +1,21 @@
+problem,cTRFu_iterations,cTRFu_bb_calls,cTRFi_iterations,cTRFi_bb_calls,note
+powell,125,2768,Fail,Fail,c-TRFu calls are 2768 in the run record; the thesis table printed 2786
+colville,Max_iter,Max_iter,Max_iter,Max_iter,
+alkylation,Fail,Fail,Fail,Fail,
+williams_otto,Fail,Fail,Fail,Fail,
+hetero_scale,Fail,Fail,Fail,Fail,
+noisy_bb,Fail,Fail,Fail,Fail,
+rosenbrock_bb,104,1099,116,1215,
+six_bb_chain,28,3222,144,13104,
+infeasible_start,Fail,Fail,Fail,Fail,
+recycle_loop,Max_iter,Max_iter,Max_iter,Max_iter,
+multimodal,Max_iter,Max_iter,Max_iter,Max_iter,
+ill_conditioned,Max_iter,Max_iter,Max_iter,Max_iter,
+active_set_churn,Max_iter,Max_iter,Max_iter,Max_iter,
+stiff_bb,Max_iter,Max_iter,Max_iter,Max_iter,
+highdim_sep_10,51,24720,64,33940,
+highdim_sep_20,46,148440,35,120520,
+highdim_sep_40,24,517400,26,689360,
+highdim_coupled_10,Max_iter,Max_iter,Max_iter,Max_iter,c-TRFu reached the iteration limit in the run record; the thesis table printed 14 and 825
+highdim_coupled_20,Max_iter,Max_iter,Max_iter,Max_iter,
+HDA,Fail,Fail,Fail,Fail,
